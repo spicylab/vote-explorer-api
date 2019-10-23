@@ -1,0 +1,164 @@
+[
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "vid",
+				"type": "string"
+			}
+		],
+		"name": "getTotalVotesMob",
+		"outputs": [
+			{
+				"name": "voteCount",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "vid",
+				"type": "string"
+			}
+		],
+		"name": "getTotalVotesItem",
+		"outputs": [
+			{
+				"name": "voteCount",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "vid",
+				"type": "string"
+			},
+			{
+				"name": "strength",
+				"type": "uint8"
+			},
+			{
+				"name": "rewards",
+				"type": "uint8"
+			}
+		],
+		"name": "voteMob",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "vid",
+				"type": "string"
+			}
+		],
+		"name": "getResultItem",
+		"outputs": [
+			{
+				"name": "strength",
+				"type": "uint8"
+			},
+			{
+				"name": "totalVotes",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "owner",
+		"outputs": [
+			{
+				"name": "",
+				"type": "address"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "vid",
+				"type": "string"
+			},
+			{
+				"name": "strength",
+				"type": "uint8"
+			}
+		],
+		"name": "voteItem",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "vid",
+				"type": "string"
+			}
+		],
+		"name": "getResultMob",
+		"outputs": [
+			{
+				"name": "strength",
+				"type": "uint8"
+			},
+			{
+				"name": "rewards",
+				"type": "uint8"
+			},
+			{
+				"name": "totalVotes",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "newOwner",
+				"type": "address"
+			}
+		],
+		"name": "transferOwnership",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	}
+]
